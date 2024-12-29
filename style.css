@@ -11,6 +11,14 @@ body {
     overflow-x : hidden ;
 }
 
+.container {
+    width : 100%;
+    margin : 0 auto;
+    overflow-x : hidden ;
+}
+
+/*navbar*/
+
 .nav {
     z-index: 100000;
     position: fixed;
@@ -46,6 +54,9 @@ body {
     border-radius: 5px;
 }
 
+
+/*image*/
+
 .hero  {
     height: 100vh;
     position: relative;
@@ -56,17 +67,6 @@ body {
     height: 100%;
     object-fit : cover;    
     position : absolute;
-}
-
-#landing h1 {
-    position : absolute;
-    z-index: 3;
-    top : 27%;
-    right : 0;
-    left : 1%;
-    font-size : 40px;
-    color : #fff;
-    text-align: center;
 }
 
 .last-img {
@@ -84,6 +84,21 @@ body {
 .center-img {
     z-index : 4;
 }
+
+/*tullisan id landing h1*/
+
+#landing h1 {
+    position : absolute;
+    z-index: 3;
+    top : 27%;
+    right : 0;
+    left : 1%;
+    font-size : 40px;
+    color : #fff;
+    text-align: center;
+}
+
+/*tombol click here*/
 
 .btn {
     position : absolute;
@@ -110,6 +125,9 @@ body {
     box-shadow: 5px 0 15px rgba(85, 85, 85, 0.7); 
 }
 
+
+/*landing blur di bawah button click me*/
+
 #landing::before {
     z-index: 100;
     content : '';
@@ -119,6 +137,9 @@ body {
     height : 30px;
     background : linear-gradient(to top, #7691bc, transparent );
 }
+
+
+/*content*/
 
 #about {
     padding : 70px;
@@ -146,3 +167,5 @@ body {
 .content p {
     text-align : justify;
 }
+
+
