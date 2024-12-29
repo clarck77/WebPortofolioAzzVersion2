@@ -141,14 +141,10 @@ body {
 
 /*content*/
 
-#about {
+.content {
     padding : 70px;
     line-height : 25px;
     color : white;
-    background-color: #7691bc;
-}
-
-.content {
     background-color: #7691bc;
     z-index : 9999;
     position : relative;
@@ -167,6 +163,18 @@ body {
 .content p {
     text-align : justify;
 }
+
+/*footer*/
+
+.footer {
+    padding : 10px;
+    width: 100%;
+    background-color : #819ece;
+    color : white;
+    text-align: center;
+    display: inline-block;
+}        
+
 
 /*responsive*/
 
@@ -310,28 +318,22 @@ body {
     
     
     /*content*/
-    
-    #about {
-        padding : 70px;
+
+    .content {
+        padding : 45px;
         line-height : 25px;
         color : white;
-        background-color: #7691bc;
-    }
-    
-    .content {
-        width : 100%;
-        height: 100%;
         background-color: #7691bc;
         z-index : 9999;
         position : relative;
         text-align : center;
-        width : 80;
+        width : 100%;
         margin : 0 auto;
     }
     
     .content hr {
         display: inline-block;
-        width : 30%;
+        width : 69%;
         border : 1px solid #fff;
         text-align : center;
     }
@@ -339,7 +341,17 @@ body {
     .content p {
         text-align : justify;
     }
-    
+
+    /*footer*/
+    .footer {
+        padding : 10px;
+        width: 100%;
+        background-color : #819ece;
+        color : white;
+        text-align: center;
+        display: inline-block;
+        
+    }        
 }
 
 
