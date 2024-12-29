@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior : smooth;
+}
+
+body {
+    background-color : #819ece;
+    overflow-x : hidden ;
+}
+
+.nav {
+    z-index: 100000;
+    position: fixed;
+    background-color: #819ece;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 20px 100px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    list-style-type: none;
+    margin-left: 5px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding : 6px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav ul li a:hover {
+    background-color: #fff;
+    color: #7691bc;
+    border-radius: 5px;
+}
+
+.hero  {
+    height: 100vh;
+    position: relative;
+}
+
+.hero img {
+    width : 100%;
+    height: 100%;
+    object-fit : cover;    
+    position : absolute;
+}
+
+#landing h1 {
+    position : absolute;
+    z-index: 3;
+    top : 27%;
+    right : 0;
+    left : 5%;
+    font-size : 40px;
+    color : #fff;
+    text-align: center;
+}
+
+.last-img {
+    z-index: 1;
+}
+
+.top-img {
+    z-index : 2;
+}
+
+.bottom-img {
+    z-index : 2;
+}
+
+.center-img {
+    z-index : 4;
+}
+
+.btn {
+    position : absolute;
+    top : 89%;
+    margin : 0 auto;
+    -ms-transform : translate(-50%, -50%);
+    transform: (-50%, -50%);
+    transform: translateX(-50%);
+    text-decoration: none;
+    padding : 2px 30px;
+    border-radius : 4px;
+    background-color: #7691bc;
+    color :  white;
+    font-weight : bold;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index : 1000;
+    box-shadow : 5px 0 15px rgba(85,85,85,0.5);
+}
+
+.btn:hover {
+    background-color: #5a7496; 
+    color: #ffffff; 
+    box-shadow: 5px 0 15px rgba(85, 85, 85, 0.7); 
+}
+
+#landing::before {
+    z-index: 100;
+    content : '';
+    position : absolute;
+    bottom : 0;
+    width : 100%;
+    height : 30px;
+    background : linear-gradient(to top, #7691bc, transparent );
+}
+
+#about {
+    padding : 70px;
+    line-height : 25px;
+    color : white;
+    background-color: #7691bc;
+}
+
+.content {
+    background-color: #7691bc;
+    z-index : 9999;
+    position : relative;
+    text-align : center;
+    width : 80;
+    margin : 0 auto;
+}
+
+.content hr {
+    display: inline-block;
+    width : 30%;
+    border : 1px solid #fff;
+    text-align : center;
+}
+
+.content p {
+    text-align : justify;
+}
