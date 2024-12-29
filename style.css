@@ -168,6 +168,8 @@ body {
     text-align : justify;
 }
 
+/*responsive*/
+
 @media screen and (max-width: 800px) {
     body {
         background-color : #819ece;
@@ -178,6 +180,7 @@ body {
         width : 100%;
         margin : 0 auto;
         overflow-x : hidden ;
+        overflow-y: hidden;
     }
     
     /*navbar*/
