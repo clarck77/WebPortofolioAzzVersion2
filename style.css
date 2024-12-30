@@ -130,6 +130,7 @@ body {
 /*landing blur di bawah button click me*/
 
 #landing::before {
+
     z-index: 100;
     content : '';
     position : absolute;
@@ -351,7 +352,7 @@ body {
         color : white;
         text-align: center;
         display: inline-block;
-        
+    
     }        
 }
 
