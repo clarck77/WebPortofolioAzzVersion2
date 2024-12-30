@@ -92,12 +92,26 @@ body {
     position : absolute;
     z-index: 3;
     top : 27%;
-    right : 0;
+    right : 1%;
     left : 1%;
     font-size : 40px;
     color : #fff;
     text-align: center;
 }
+
+/*tullisan id landing h2 dan h3*/
+
+#landing h2 {
+    position : absolute;
+    z-index: -1111;
+}
+
+#landing h3 {
+    position : absolute;
+    z-index: -1111;
+}
+
+
 
 /*tombol click here*/
 
@@ -268,12 +282,35 @@ body {
         position : absolute;
         z-index: 3;
         top : 29%;
-        right : 0;
+        right : 1%;
         left : 1%;
         font-size : 30px;
         color : #fff;
         text-align: center;
     }
+
+    #landing h2 {
+        position : absolute;
+        z-index: 3;
+        top : 55%;
+        right : 90%;
+        left : 0;
+        font-size : 17px;
+        color : #fff;
+        text-align: center;
+    }
+
+    #landing h3 {
+        position : absolute;
+        z-index: 3;
+        top : 70%;
+        right : 0;
+        font-size : 17px;
+        color : #fff;
+        text-align: center;
+    }
+
+
     
     /*tombol click here*/
     
