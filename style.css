@@ -163,10 +163,30 @@ body {
   margin: 0 auto;
 }
 
+/*fixed konten meluap*/
+
 #about .content {
     max-width: 100%;
-    overflow: hidden;
+    overflow-x : hidden;
     word-wrap: break-word;
+} 
+
+#dreams .content {
+  max-width : 100%;
+  overflow-x : hidden;
+  word-wrap : break-word;
+}
+
+#cv .content {
+  max-width : 100%;
+  overflow-x : hidden;
+  word-wrap : break-word;
+}
+
+#contact .content {
+  max-width : 100%;
+  overflow-x : hidden;
+  word-wrap : break-word;
 }
 
 .content hr {
