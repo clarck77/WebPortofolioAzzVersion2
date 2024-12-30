@@ -159,8 +159,14 @@ body {
   z-index: 9999;
   position: relative;
   text-align: center;
-  width: 80;
+  width: 100%;
   margin: 0 auto;
+}
+
+#about .content {
+    max-width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
 }
 
 .content hr {
