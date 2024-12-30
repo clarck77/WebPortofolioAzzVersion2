@@ -58,6 +58,7 @@ body {
 /*image*/
 
 .hero  {
+    overflow : hidden;
     height: 100vh;
     position: relative;
 }

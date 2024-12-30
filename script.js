@@ -10,8 +10,8 @@ window.addEventListener('scroll', function() {
 
     BottomImage.style.right = value * 0.9 + 'px';
     TopImage.style.left = value * 0.9 + 'px';    
-    CenterImage.style.left = value * 0 + 'px';
-    CenterImage.style.bottom = value * 0 + 'px';
+    CenterImage.style.left = value * 0.7 + 'px';
+    CenterImage.style.top = value * 0.6 + 'px';
     LastImage.style.bottom = value * 0.8 + 'px';
 
     AboutMe.style.left = value * 0.5 + 'px';
