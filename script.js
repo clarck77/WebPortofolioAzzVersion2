@@ -8,7 +8,7 @@ window.addEventListener("scroll", function () {
   let value = window.scrollY;
 
   if (window.innerWidth > 800) {
-    // Efek parallax aktif
+    // efek parallax aktif
     BottomImage.style.right = value * 0.9 + "px";
     TopImage.style.left = value * 0.9 + "px";
     CenterImage.style.left = value * 0.7 + "px";
@@ -16,7 +16,7 @@ window.addEventListener("scroll", function () {
     LastImage.style.bottom = value * 0.8 + "px";
     AboutMe.style.left = value * 0.5 + "px";
   } else {
-    // Reset nilai ke posisi default
+    // reset nilai ke posisi awal
     BottomImage.style.right = "0px";
     TopImage.style.left = "0px";
     CenterImage.style.left = "0px";

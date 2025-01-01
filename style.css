@@ -9,6 +9,7 @@
 body {
   background-color: #819ece;
   overflow-x: hidden;
+  width: 100%;
 }
 
 .container {
@@ -151,7 +152,10 @@ body {
 
 /*content*/
 
-.content {
+#content .content,
+#dreams .dreams,
+#cv .cv,
+#contact .contact {
   padding: 70px;
   line-height: 25px;
   color: white;
@@ -161,11 +165,12 @@ body {
   text-align: center;
   width: 100%;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 /*fixed konten meluap*/
 
-#about .content {
+/* #about .content {
     max-width: 100%;
     overflow-x : hidden;
     word-wrap: break-word;
@@ -187,16 +192,24 @@ body {
   max-width : 100%;
   overflow-x : hidden;
   word-wrap : break-word;
-}
+} */
 
-.content hr {
+.content,
+.dreams,
+.cv,
+.contact,
+hr {
   display: inline-block;
   width: 30%;
   border: 1px solid #fff;
   text-align: center;
 }
 
-.content p {
+.content,
+.dreams,
+.cv,
+.contact,
+p {
   text-align: justify;
 }
 
@@ -209,6 +222,10 @@ body {
   color: white;
   text-align: center;
   display: inline-block;
+}
+
+.footer p {
+  text-align: center;
 }
 
 /*responsive*/
@@ -370,8 +387,11 @@ body {
 
   /*content*/
 
-  .content {
-    padding: 45px;
+  #content .content,
+  #dreams .dreams,
+  #cv .cv,
+  #contact .contact {
+    padding: 70px;
     line-height: 25px;
     color: white;
     background-color: #7691bc;
@@ -382,14 +402,20 @@ body {
     margin: 0 auto;
   }
 
-  .content hr {
+  .content,
+  .dreams,
+  .cv,
+  .contact hr {
     display: inline-block;
     width: 69%;
     border: 1px solid #fff;
     text-align: center;
   }
 
-  .content p {
+  .content,
+  .dreams,
+  .cv,
+  .contact p {
     text-align: justify;
   }
 
