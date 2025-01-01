@@ -194,22 +194,20 @@ body {
   word-wrap : break-word;
 } */
 
-.content,
-.dreams,
-.cv,
-.contact,
-hr {
+.content hr,
+.dreams hr,
+.cv hr,
+.contact hr {
   display: inline-block;
   width: 30%;
   border: 1px solid #fff;
   text-align: center;
 }
 
-.content,
-.dreams,
-.cv,
-.contact,
-p {
+.content p,
+.dreams p,
+.cv p,
+.contac p {
   text-align: justify;
 }
 
@@ -402,9 +400,9 @@ p {
     margin: 0 auto;
   }
 
-  .content,
-  .dreams,
-  .cv,
+  .content hr,
+  .dreams hr,
+  .cv hr,
   .contact hr {
     display: inline-block;
     width: 69%;
@@ -412,9 +410,9 @@ p {
     text-align: center;
   }
 
-  .content,
-  .dreams,
-  .cv,
+  .content p,
+  .dreams p,
+  .cv p,
   .contact p {
     text-align: justify;
   }
