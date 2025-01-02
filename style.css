@@ -140,16 +140,24 @@ body {
 
 /*landing blur di bawah button click me*/
 
-#landing::before {
-  z-index: 100000000000;
-  content: "";
-  position: absolute;
-  bottom: -10px;
-  width: 100%;
-  height: 40px;
-  background: linear-gradient(to top, #7691bc, transparent);
-}
+/*#landing relatif */
+  #landing {
+    position: relative;
+  }
 
+  /* Pseudo-elemen untuk landing */
+  #landing::before {
+    z-index: 10;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to top, #7691bc, transparent);
+    display: block; 
+    box-sizing: border-box; 
+  }
+  
 /*content*/
 
 #content .content,
@@ -373,16 +381,24 @@ body {
 
   /*landing blur di bawah button click me*/
 
-#landing::before {
-  z-index: 100000000000;
-  content: "";
-  position: absolute;
-  bottom: -10px;
-  width: 100%;
-  height: 40px;
-  background: linear-gradient(to top, #7691bc, transparent);
-}
+  /* Pastikan #landing memiliki posisi relatif */
+  #landing {
+    position: relative;
+  }
 
+  /* Pseudo-elemen untuk landing */
+  #landing::before {
+    z-index: 10;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to top, #7691bc, transparent);
+    display: block; 
+    box-sizing: border-box; 
+  }
+  
   /*content*/
 
   #content .content,
