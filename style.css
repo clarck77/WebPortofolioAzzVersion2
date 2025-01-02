@@ -12,7 +12,11 @@ body {
   width: 100%;
 }
 
-.container {
+.container,
+#content .content,
+#dreams .dreams,
+#cv .cv,
+#contact .contact {
   width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
