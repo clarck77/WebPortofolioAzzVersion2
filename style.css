@@ -8,14 +8,14 @@
 
 body {
   background-color: #819ece;
-  overflow-x: hidden;
+  overflow: hidden;
   width: 100%;
 }
 
 .container {
   width: 100%;
   margin: 0 auto;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 /*navbar*/
@@ -172,25 +172,25 @@ body {
 
 /* #about .content {
     max-width: 100%;
-    overflow-x : hidden;
+    overflow : hidden;
     word-wrap: break-word;
 } 
 
 #dreams .content {
   max-width : 100%;
-  overflow-x : hidden;
+  overflow : hidden;
   word-wrap : break-word;
 }
 
 #cv .content {
   max-width : 100%;
-  overflow-x : hidden;
+  overflow : hidden;
   word-wrap : break-word;
 }
 
 #contact .content {
   max-width : 100%;
-  overflow-x : hidden;
+  overflow : hidden;
   word-wrap : break-word;
 } */
 
@@ -232,13 +232,13 @@ body {
   html,
   body {
     background-color: #819ece;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .container {
     width: 100%;
     margin: 0 auto;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   /*navbar*/
