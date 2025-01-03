@@ -179,9 +179,9 @@ body {
 /*content paragraph paralax*/
 .paragraph,
 .paragraphtranslate {
-  transition: 2s;
+  transition: 6s;
   opacity: 0;
-  transform: translate (-50px, 0);
+  transform: translate(-50px, 0);
 }
 
 .paragraphtranslate {

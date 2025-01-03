@@ -4,11 +4,12 @@ let TopImage = document.getElementsByClassName("top-img")[0];
 let CenterImage = document.getElementsByClassName("center-img")[0];
 let AboutMe = document.querySelector("#landing h1");
 
-// Add overflow-x hidden to specific elements
-document.querySelectorAll('#content .content, #dreams .dreams, #cv .cv, #contact .contact').forEach(function(element) {
-  element.style.overflowX = 'hidden';
-});
+// // Add overflow-x hidden to specific elements
+// document.querySelectorAll('#content .content, #dreams .dreams, #cv .cv, #contact .contact').forEach(function(element) {
+//   element.style.overflowX = 'hidden';
+// });
 
+// parallax effect
 window.addEventListener("scroll", function () {
   let value = window.scrollY;
 
@@ -30,6 +31,14 @@ window.addEventListener("scroll", function () {
     AboutMe.style.left = "0px";
   }
 });
+
+// parallax efect on scroll paragraph 
+$(window).on('scroll', function() {
+  $('.paragraph').addClass('active');
+  $('.paragraphtranslate').addClass('active');
+});
+
+
 
 
 
