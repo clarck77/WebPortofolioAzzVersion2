@@ -176,7 +176,16 @@ body {
   box-sizing: border-box;
 }
 
-/*content paragraph paralax*/
+/*content headline & paragraph paralax*/
+.headline {
+  transition: 4s;
+  opacity: 0;
+}
+
+.headline.active {
+  opacity: 1;
+}
+
 .paragraph,
 .paragraphtranslate {
   transition: 6s;
@@ -188,7 +197,8 @@ body {
   transform: translate(50px, 0);
 }
 
-.paragraph.active, .paragraphtranslate.active {
+.paragraph.active,
+.paragraphtranslate.active {
   opacity: 1;
   transform: translate(0, 0);
 }

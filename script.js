@@ -36,6 +36,7 @@ window.addEventListener("scroll", function () {
 $(window).on('scroll', function() {
   $('.paragraph').addClass('active');
   $('.paragraphtranslate').addClass('active');
+  $('.headline').addClass('active');
 });
 
 
