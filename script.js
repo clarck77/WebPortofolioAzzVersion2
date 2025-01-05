@@ -37,6 +37,8 @@ $(window).on('scroll', function() {
   $('.paragraph').addClass('active');
   $('.paragraphtranslate').addClass('active');
   $('.headline').addClass('active');
+  $(".contact-list").addClass("active");
+
 });
 
 
