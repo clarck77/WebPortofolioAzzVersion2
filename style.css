@@ -246,6 +246,10 @@ body {
   text-align: justify;
 }
 
+span {
+  display: block;
+}
+
 /*footer*/
 
 .footer {
@@ -432,7 +436,7 @@ body {
   #dreams .dreams,
   #cv .cv,
   #contact .contact {
-    padding: 70px;
+    padding: 50px;
     line-height: 25px;
     color: white;
     background-color: #7691bc;
