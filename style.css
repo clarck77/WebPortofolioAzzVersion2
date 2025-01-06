@@ -295,13 +295,13 @@ body {
 }
 
 .contact-list a {
-    color: #c6c6c6;
+    color: rgb(6, 189, 255);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .contact-list a:hover {
-    color: #a0a0a0;
+    color:rgb(11, 74, 97);
 }
 
 /* Mobile Responsiveness */
