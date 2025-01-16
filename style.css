@@ -448,6 +448,7 @@ span {
     font-size: 17px;
     color: #fff;
     text-align: center;
+    text-shadow: 10px 8px 2px white;
   }
 
   #landing h3 {
@@ -458,6 +459,8 @@ span {
     font-size: 17px;
     color: #fff;
     text-align: center;
+    text-shadow: -20px 8px 2px white;
+
   }
 
   /*tombol click here*/
