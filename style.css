@@ -23,14 +23,14 @@ body {
 /*navbar*/
 
 .nav {
-    top: 0;
-    margin: 0;
-    z-index: 999999;
-    position: fixed;
-    background-color: #819ece;
-    padding: 10px 29px;
-    display: flex;
-    justify-content: space-between;
+  top: 0;
+  margin: 0;
+  z-index: 999999;
+  position: fixed;
+  background-color: #819ece;
+  padding: 10px 29px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-links {
@@ -46,23 +46,23 @@ body {
 }
 
 .nav-links li {
-    list-style-type: none;
-    margin-left: 5px;
-    margin: 0 10px;
+  list-style-type: none;
+  margin-left: 5px;
+  margin: 0 10px;
 }
 
 .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    transition: 0.3s;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
 }
 
 .nav-links a:hover {
-    background-color: white;
-    border-radius: 4px;
-    color: #819ece;
-    padding: 9px;
+  background-color: white;
+  border-radius: 4px;
+  color: #819ece;
+  padding: 9px;
 }
 
 @media (max-width: 390px) {
@@ -74,72 +74,70 @@ body {
     padding: 9px;
     display: inline-block;
   }
-  
 }
-
 
 /* Hamburger menu styles */
 .menu-toggle {
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 25px;
-    cursor: pointer;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
 }
 
 .bar {
-    height: 4px;
-    width: 100%;
-    background-color: white;
-    border-radius: 2px;
+  height: 4px;
+  width: 100%;
+  background-color: white;
+  border-radius: 2px;
 }
 
 /* Animation hamburger menu open */
 .menu-toggle.active .bar:nth-child(1) {
-    transform: translateY(10px) rotate(45deg);
+  transform: translateY(10px) rotate(45deg);
 }
 
 .menu-toggle.active .bar:nth-child(2) {
-    opacity: 0;
+  opacity: 0;
 }
 
 .menu-toggle.active .bar:nth-child(3) {
-    transform: translateY(-10px) rotate(-45deg);
+  transform: translateY(-10px) rotate(-45deg);
 }
 
 @media (max-width: 800px) {
-    .menu-toggle {
-        display: flex;
-    }
+  .menu-toggle {
+    display: flex;
+  }
 
-    .nav {
-      position: fixed;
-      width: 100%;
-    }
+  .nav {
+    position: fixed;
+    width: 100%;
+  }
 
-    .nav-links {
-        display: none;
-        position: absolute;
-        top: 44px;
-        left: 0;
-        width: 100%;
-        flex-direction: column;
-        background-color: #333;
-    }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: #333;
+  }
 
-    .nav-links.active {
-        display: flex;
-    }
+  .nav-links.active {
+    display: flex;
+  }
 
-    .nav-links a:hover {
-      color: #333;
-    }
+  .nav-links a:hover {
+    color: #333;
+  }
 
-    .nav-links li {
-        text-align: center;
-        margin: 15px 0;
-    }
+  .nav-links li {
+    text-align: center;
+    margin: 15px 0;
+  }
 }
 
 /* .nav {
@@ -400,51 +398,49 @@ body {
 } */
 
 .contact-list {
-    list-style: none;
-    padding: 0;
-    margin: 20px 0;
-    text-align: justify;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: justify;
 }
 
-
 .contact-list li {
-    margin: 10px 0;
-    font-size: 16px;
+  margin: 10px 0;
+  font-size: 16px;
 }
 
 .contact-list li strong {
-    color: white;
+  color: white;
 }
 
 .contact-list a {
-    color: rgb(6, 189, 255);
-    text-decoration: none;
-    transition: color 0.3s ease;
+  color: rgb(6, 189, 255);
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .contact-list a:hover {
-    color:rgb(11, 74, 97);
+  color: rgb(11, 74, 97);
 }
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
-    #contact-me {
-        padding: 20px 10px;
-    }
+  #contact-me {
+    padding: 20px 10px;
+  }
 
-    .headline {
-        font-size: 24px;
-    }
+  .headline {
+    font-size: 24px;
+  }
 
-    .paragraph {
-        font-size: 14px;
-    }
+  .paragraph {
+    font-size: 14px;
+  }
 
-    .contact-list li {
-        font-size: 14px;
-    }
+  .contact-list li {
+    font-size: 14px;
+  }
 }
-
 
 span {
   display: block;

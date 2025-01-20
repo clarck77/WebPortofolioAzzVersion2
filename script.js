@@ -32,29 +32,19 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// parallax efect on scroll paragraph 
-$(window).on('scroll', function() {
-  $('.paragraph').addClass('active');
-  $('.paragraphtranslate').addClass('active');
-  $('.headline').addClass('active');
+// parallax efect on scroll paragraph
+$(window).on("scroll", function () {
+  $(".paragraph").addClass("active");
+  $(".paragraphtranslate").addClass("active");
+  $(".headline").addClass("active");
   $(".contact-list").addClass("active");
-
 });
 
 // hamburger menu script
-const menuToggle = document.getElementById('menu-toggle');
-const navLinks = document.querySelector('.nav-links');
+const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.querySelector(".nav-links");
 
-menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-    menuToggle.classList.toggle('active');
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+  menuToggle.classList.toggle("active");
 });
-
-
-
-
-
-
-
-
-
