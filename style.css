@@ -362,7 +362,7 @@ span {
 
   .nav {
     z-index: 100000;
-    position: fixed;
+    position: absolute;
     background-color: #819ece;
     left: 0;
     width: 100%;
