@@ -10,6 +10,8 @@ body {
   background-color: #819ece;
   overflow-x: hidden;
   width: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 .container {
@@ -21,6 +23,126 @@ body {
 /*navbar*/
 
 .nav {
+    top: 0;
+    margin: 0;
+    z-index: 999999;
+    position: fixed;
+    background-color: #819ece;
+    padding: 10px 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+  top: 0;
+  z-index: 100000;
+  position: fixed;
+  background-color: #819ece;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding: 20px 100px;
+}
+
+.nav-links li {
+    list-style-type: none;
+    margin-left: 5px;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: white;
+    border-radius: 4px;
+    color: #819ece;
+    padding: 9px;
+}
+
+@media (max-width: 390px) {
+  .nav-links a:hover {
+    background-color: white;
+    border-radius: 4px;
+    color: #819ece;
+    justify-content: center;
+    padding: 9px;
+    display: inline-block;
+  }
+  
+}
+
+
+/* Hamburger menu styles */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.bar {
+    height: 4px;
+    width: 100%;
+    background-color: white;
+    border-radius: 2px;
+}
+
+/* Animation hamburger menu open */
+.menu-toggle.active .bar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+
+.menu-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.active .bar:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+@media (max-width: 800px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav {
+      position: fixed;
+      width: 100%;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 44px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: #333;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a:hover {
+      color: #333;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin: 15px 0;
+    }
+}
+
+/* .nav {
   z-index: 100000;
   position: fixed;
   background-color: #819ece;
@@ -53,7 +175,7 @@ body {
   background-color: #fff;
   color: #7691bc;
   border-radius: 5px;
-}
+} */
 
 /*image*/
 
@@ -360,7 +482,7 @@ span {
 
   /*navbar*/
 
-  .nav {
+  /* .nav {
     z-index: 100000;
     position: absolute;
     background-color: #819ece;
@@ -394,7 +516,7 @@ span {
     background-color: #fff;
     color: #7691bc;
     border-radius: 5px;
-  }
+  } */
 
   /*image*/
 
