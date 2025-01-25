@@ -1,6 +1,6 @@
 # 🌐 Portfolio Website  
 
-Website portofolio pribadi saya yang dibangun menggunakan HTML, CSS, dan JavaScript dengan efek parallax untuk memberikan pengalaman interaktif dan menarik. Desain visual dibuat menggunakan Canva, dan website dihosting di Cloudflare Pages untuk performa optimal.  
+Website portofolio pribadi saya yang dibangun menggunakan HTML, CSS, dan JavaScript dengan efek parallax untuk memberikan pengalaman interaktif dan menarik. Desain visual dibuat menggunakan Canva, dan website dihosting di Cloudflare Pages untuk performa yang optimal.  
 
 ## ✨ Fitur Utama  
 - 🌟 **Efek Parallax**: Memberikan tampilan yang dinamis dan responsif.  
