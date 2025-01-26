@@ -53,4 +53,4 @@ Pull request dan masukan sangat diterima! 🚀
 ## ⚖️ Lisensi  
 Proyek ini tidak dilisensikan.  
 
-> ✍️ Amrullah Azzaky  
+> Amrullah Azzaky  
