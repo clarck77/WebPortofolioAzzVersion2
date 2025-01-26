@@ -15,7 +15,8 @@ Website portofolio pribadi saya yang dibangun menggunakan HTML, CSS, dan JavaScr
 - 🖼️ **Canva**: Pembuatan dan pengeditan elemen visual.  
 - 🚀 **Cloudflare Pages**: Platform hosting statis.  
 
-## 🖥️ Instalasi dan Penggunaan  
+## Cara Instalasi/Penggunaan  
+💻 **Langkah-langkah instalasi:**  
 1. **📥 Clone Repository**  
    ```bash  
    git clone https://github.com/username/portfolio-website.git  
