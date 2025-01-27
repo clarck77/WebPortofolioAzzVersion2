@@ -15,21 +15,6 @@ Website portofolio pribadi saya yang dibangun menggunakan HTML, CSS, dan JavaScr
 - 🖼️ **Canva**: Pembuatan dan pengeditan elemen visual.  
 - 🚀 **Cloudflare Pages**: Platform hosting statis.  
 
-## Cara Instalasi/Penggunaan  
-💻 **Langkah-langkah instalasi:**  
-1. **📥 Clone Repository**  
-   ```bash  
-   git clone https://github.com/username/portfolio-website.git  
-   ```  
-
-2. **🌍 Buka di Browser**  
-   Buka file `index.html` di browser untuk melihat hasilnya.  
-
-3. **📤 Deploy ke Cloudflare Pages**  
-   - Login ke akun Cloudflare.  
-   - Buat project baru dan hubungkan ke repository.  
-   - Ikuti instruksi deployment hingga website live.  
-
 ## 📂 Struktur Proyek  
 ```
 WebPortofolioAzzVersion2/
@@ -48,10 +33,19 @@ WebPortofolioAzzVersion2/
 └── README.md            # 📄 Dokumentasi  
 ```  
 
-## 🤝 Kontribusi  
-Pull request dan masukan sangat diterima! 🚀  
+## Cara Instalasi/Penggunaan  
+💻 **Langkah-langkah instalasi:**  
+1. **📥 Clone Repository**  
+   ```bash  
+   git clone https://github.com/username/portfolio-website.git  
+   ```  
 
-## ⚖️ Lisensi  
-Proyek ini tidak dilisensikan.  
+2. **🌍 Buka di Browser**  
+   Buka file `index.html` di browser untuk melihat hasilnya.  
+
+3. **📤 Deploy ke Cloudflare Pages**  
+   - Login ke akun Cloudflare.  
+   - Buat project baru dan hubungkan ke repository.  
+   - Ikuti instruksi deployment hingga website live.  
 
 > Amrullah Azzaky  
