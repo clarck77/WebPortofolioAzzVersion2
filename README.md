@@ -33,17 +33,26 @@ WebPortofolioAzzVersion2/
 └── README.md            # 📄 Dokumentasi  
 ```  
 
-## Cara Instalasi/Penggunaan  
-💻 **Langkah-langkah instalasi:**  
-1. **📥 Clone Repository**  
-   ```bash  
-   git clone https://github.com/clarck77/WebPortofolioAzzVersion2.git  
-   ```  
+## 🚀 Instalasi & Penggunaan
+1. **Clone repositori:**
+   ```bash
+   git clone https://github.com/clarck77/WebPortofolioAzzVersion2.git
+   ```
 
-2. **🌍 Buka di Browser**  
+2. **Masuk ke folder proyek:**
+   ```bash
+   cd WebPortofolioAzzVersion2
+   ```
+
+3. **Membuka Kode Editor / IDE**
+   ```bash
+   code . 
+   ```
+
+4. **🌍 Buka di Browser**  
    Buka file `index.html` di browser untuk melihat hasilnya.  
 
-3. **📤 Deploy ke Cloudflare Pages**  
+5. **📤 Deploy ke Cloudflare Pages**  
    - Login ke akun Cloudflare.  
    - Buat project baru dan hubungkan ke repository.  
    - Ikuti instruksi deployment hingga website live.  
