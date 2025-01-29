@@ -37,7 +37,7 @@ WebPortofolioAzzVersion2/
 💻 **Langkah-langkah instalasi:**  
 1. **📥 Clone Repository**  
    ```bash  
-   git clone https://github.com/username/portfolio-website.git  
+   git clone https://github.com/clarck77/WebPortofolioAzzVersion2.git  
    ```  
 
 2. **🌍 Buka di Browser**  
