@@ -57,4 +57,7 @@ WebPortofolioAzzVersion2/
    - Buat project baru dan hubungkan ke repository.  
    - Ikuti instruksi deployment hingga website live.  
 
-> Amrullah Azzaky  
+## 📜 Lisensi
+Proyek ini tidak dilisensikan. 📄
+
+> Amrullah Azzaky
