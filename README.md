@@ -16,22 +16,21 @@ Website portofolio pribadi saya yang dibangun menggunakan HTML, CSS, dan JavaScr
 - 🚀 **Cloudflare Pages**: Platform hosting statis.  
 
 ## 📂 Struktur Proyek  
-```
+
 WebPortofolioAzzVersion2/
 ├── ico
-│   ├── pict1.png        # 🖼️ Icon website  
+│   ├── pict1.png        
 ├── img
-│   ├── 5.png             # 🖼️ Foto hasil edit Canva gabungan 4 foto di bawah  
-│   ├── bottom-img.png    # Gambar dan foto hasil edit Canva (untuk efek parallax)  
-│   ├── center-img.png    # Gambar dan foto hasil edit Canva (untuk efek parallax)  
-│   ├── last-img.png      # Gambar dan foto hasil edit Canva (untuk efek parallax)  
-│   ├── top-img.png       # Gambar dan foto hasil edit Canva (untuk efek parallax)  
+│   ├── 5.png        
+│   ├── bottom-img.png    
+│   ├── center-img.png    
+│   ├── last-img.png        
+│   ├── top-img.png         
 ├──
-├── style.css            # 🎨 File CSS  
-├── script.js            # ⚡ File JavaScript  
-├── index.html           # 🌐 Halaman utama  
-└── README.md            # 📄 Dokumentasi  
-```  
+├── style.css            
+├── script.js            
+├── index.html           
+└── README.md            
 
 ## 🚀 Instalasi & Penggunaan
 1. **Clone repositori:**
