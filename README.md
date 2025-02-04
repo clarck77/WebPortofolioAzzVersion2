@@ -15,23 +15,6 @@ Website portofolio pribadi saya yang dibangun menggunakan HTML, CSS, dan JavaScr
 - 🖼️ **Canva**: Pembuatan dan pengeditan elemen visual.  
 - 🚀 **Cloudflare Pages**: Platform hosting statis.  
 
-## 📂 Struktur Proyek  
-
-WebPortofolioAzzVersion2/
-├── ico
-│   ├── pict1.png        
-├── img
-│   ├── 5.png        
-│   ├── bottom-img.png    
-│   ├── center-img.png    
-│   ├── last-img.png        
-│   ├── top-img.png         
-├──
-├── style.css            
-├── script.js            
-├── index.html           
-└── README.md            
-
 ## 🚀 Instalasi & Penggunaan
 1. **Clone repositori:**
    ```bash
