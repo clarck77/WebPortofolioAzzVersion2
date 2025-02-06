@@ -39,6 +39,24 @@ Website portofolio pribadi saya yang dibangun menggunakan HTML, CSS, dan JavaScr
    - Buat project baru dan hubungkan ke repository.  
    - Ikuti instruksi deployment hingga website live.  
 
+## 📂 Struktur Folder  
+
+```
+📁 WebPortofolioAzzVersion2/
+├── ico
+│   ├── pict1.png        
+├── img
+│   ├── 5.png             
+│   ├── bottom-img.png    
+│   ├── center-img.png    
+│   ├── last-img.png      
+│   ├── top-img.png       
+├── style.css            
+├── script.js            
+├── index.html           
+└── README.md            
+```
+
 ## 📜 Lisensi
 Proyek ini tidak dilisensikan. 📄
 
